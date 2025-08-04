@@ -24,6 +24,16 @@
       <button type="submit">Registrar</button>
     </div>
   </form>
+  // Filtro
+    <div>
+    <label for="filtro-carrera">Filtrar por carrera:</label>
+    <input type="text" id="filtro-carrera">
+    <button onclick="filtrarPorCarrera(document.getElementById('filtro-carrera').value)">Filtrar</button>
+    <button onclick="listarEstudiantes()">Mostrar todos</button>
+  </div>
+
+  <h2>Lista de Estudiantes</h2>
+  <ul id="lista-estudiantes"></ul>
 
   <script src="script.js"></script>
 </body>
