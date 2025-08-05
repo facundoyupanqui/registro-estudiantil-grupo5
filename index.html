@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registro Estudiantil</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Formulario de Registro Estudiantil</h1>
+
+  <form id="formulario">
+    <input type="text" id="nombre" placeholder="Nombre" required />
+    <input type="number" id="edad" placeholder="Edad" required />
+    <input type="text" id="carrera" placeholder="Carrera" required />
+    <button type="submit">Registrar</button>
+  </form>
+
+
+  <input type="text" id="filtro" placeholder="Filtrar por carrera" />
+    <button id="limpiar">Limpiar registros</button>
+
+
+  <table id="tabla">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Carrera</th>
+      </tr>
+    </thead>
+    <tbody id="cuerpoTabla">
+      <!-- Estudiantes se mostrarán aquí -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
