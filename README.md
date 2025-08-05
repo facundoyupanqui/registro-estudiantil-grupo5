@@ -22,12 +22,10 @@ El proyecto tiene como objetivo la creación de un formulario web básico que pe
 
 | Rol                     | Integrante           |
 |------------------------|----------------------|
-| Product Owner          | Daniel Torres        |
-| Scrum Master           | facundoyupanqui      |
-| Diseño de la interfaz  | JesseAU              |
-| Validación de edad     | xDallen              |
-| Almacenamiento y tabla | Desarrollador 3      |
-| Filtro por carrera     | Desarrollador 4      |
+| Scrum Master           | Kevin Facundo Yupanqui |
+| Developer 1  | Daniel Torres Cordova  |
+| Developer 2  | Juan Carlos Solis Apolinario     |
+| Developer 3  | Uriarte  Ordóñez Diego Leonardo    |
 
 ---
 
@@ -36,4 +34,5 @@ El proyecto tiene como objetivo la creación de un formulario web básico que pe
 - HTML5
 - CSS3
 - JavaScript
+
 
