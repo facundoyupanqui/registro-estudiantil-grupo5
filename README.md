@@ -63,10 +63,16 @@ _Ejemplo:_
 
 ---
 
+## 🔗 Enlace al Drive
+
+Accede al Drive:  
+➡️ **[Registro Estudiantil - Grupo 5]( https://drive.google.com/drive/folders/1K5S9HXu4ZhuaKNBHelFTfXK1C7kfhAET?usp=sharing )**
+
+
 ## 🔗 Enlace al Proyecto
 
 Accede a la app desde GitHub Pages:  
-➡️ **[Registro Estudiantil - Grupo 5](https://facundoyupanqui.github.io/registro-estudiantil-grupo5/)**
+➡️ **[Registro Estudiantil - Grupo 5]( https://facundoyupanqui.github.io/registro-estudiantil-grupo5/ )**
 
 ---
 
@@ -77,11 +83,3 @@ Accede a la app desde GitHub Pages:
 - Eventos realizados: Sprint Planning, Daily informal, Sprint Review, Retrospective.
 
 ---
-
-## 📚 Lecciones Aprendidas
-
-Cada integrante explicará en el video:
-- Su **rol asignado**
-- Qué **tarea realizó**
-- Cómo la **resolvió**
-- Qué **reto** enfrentó o qué **aprendió**
