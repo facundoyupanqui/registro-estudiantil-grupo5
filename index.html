@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Registro Estudiantil</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Validador de Documento</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Formulario de Registro Estudiantil</h1>
+  <div class="container">
+    <h1>🔍 Validación de Documento</h1>
+    <form id="formulario">
+      <label for="tipo">Tipo de documento:</label>
+      <select id="tipo" name="tipo">
+        <option value="dni">DNI</option>
+        <option value="ruc">RUC</option>
+        <option value="pasaporte">Pasaporte</option>
+      </select>
 
-  <form id="formulario">
-    <input type="text" id="nombre" placeholder="Nombre" required />
-    <input type="number" id="edad" placeholder="Edad" required />
-    <input type="text" id="carrera" placeholder="Carrera" required />
-    <button type="submit">Registrar</button>
-  </form>
+      <label for="documento">Número:</label>
+      <input type="text" id="documento" name="documento" placeholder="Ingrese su documento">
 
+      <button type="submit">Validar</button>
+    </form>
 
-  <input type="text" id="filtro" placeholder="Filtrar por carrera" />
-    <button id="limpiar">Limpiar registros</button>
+    <div class="spinner" style="display: none;"></div>
 
-
-  <table id="tabla">
-    <thead>
-      <tr>
-        <th>Nombre</th>
-        <th>Edad</th>
-        <th>Carrera</th>
-      </tr>
-    </thead>
-    <tbody id="cuerpoTabla">
-      <!-- Estudiantes se mostrarán aquí -->
-    </tbody>
-  </table>
+    <table id="tablaResultados">
+      <thead>
+        <tr>
+          <th>Tipo</th>
+          <th>Número</th>
+          <th>Resultado</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
 
   <script src="script.js"></script>
 </body>
